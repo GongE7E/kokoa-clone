@@ -7,6 +7,9 @@
     <title>Home- My first website</title>
     <link rel="stylesheet" href="styles.css" />
     <style>
+      * {
+        border: 2px solid black;
+      }
       html {
         background-color: tomato;
       }
@@ -16,10 +19,10 @@
         background-color: thistle;
       }
       div {
-        padding: 10px;
+        padding: 20px;
       }
       #first {
-        background-color: thistle;
+        background-color: whitesmoke;
         width: 150px;
         height: 150px;
       }
@@ -33,19 +36,15 @@
         width: 50px;
         height: 50px;
       }
-      #fourth {
-        background-color: blanchedalmond;
-        width: 25px;
-        height: 25px;
+      span {
+        border-style: dotted;
       }
     </style>
   </head>
   <body>
     <div id="first">
       <div id="second">
-        <div id="third">
-          <div id="fourth"></div>
-        </div>
+        <div id="third"><span>Hello</span></div>
       </div>
     </div>
   </body>
