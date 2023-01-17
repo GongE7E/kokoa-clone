@@ -7,28 +7,22 @@
     <title>Home- My first website</title>
     <link rel="stylesheet" href="styles.css" />
     <style>
-      a {
-        color: wheat;
-        background-color: tomato;
-        text-decoration: none;
-        padding: 3px 5px;
-        border-radius: 5px;
-        font-size: 55px;
-        transition: background-color 10s ease-in-out, color 5s ease-in-out;
-      }
-      a:hover {
-        color: tomato;
-        background-color: wheat;
-        border-radius: 2px;
+      @keyframes superSexyCoinFlip {
+        0% {
+          transform: rotateX(0);
+        }
+        50% {
+          transform: rotateX(180deg) translateX(100px);
+        }
+        100% {
+          transform: rotateX(0);
+        }
       }
       img {
-        border: 5px solid black;
+        border: 10px solid black;
         border-radius: 50%;
-        transform: translate3d(12px, 50%, 3em);
-        transition: transform 5s ease-in-out;
-      }
-      img:hover {
-        transform: skew(20deg, -30deg);
+        width: 300px;
+        animation: superSexyCoinFlip 5s ease-in-out infinite;
       }
     </style>
   </head>
