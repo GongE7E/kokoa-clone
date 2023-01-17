@@ -7,28 +7,35 @@
     <title>Home- My first website</title>
     <link rel="stylesheet" href="styles.css" />
     <style>
-      :root {
-        --main-color: #fcce00;
+      a {
+        color: wheat;
+        background-color: tomato;
+        text-decoration: none;
+        padding: 3px 5px;
+        border-radius: 5px;
+        font-size: 55px;
+        transition: background-color 10s ease-in-out, color 5s ease-in-out;
       }
-      input::placeholder {
-        color: green;
+      a:hover {
+        color: tomato;
+        background-color: wheat;
+        border-radius: 2px;
       }
-      p {
-        background-color: var(--main-color);
+      img {
+        border: 5px solid black;
+        border-radius: 50%;
+        transform: translate3d(12px, 50%, 3em);
+        transition: transform 5s ease-in-out;
+      }
+      img:hover {
+        transform: skew(20deg, -30deg);
       }
     </style>
   </head>
   <body>
-    <div>
-      <form action="">
-        <input type="text" placeholder="Name" />
-      </form>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde quo quam
-        explicabo voluptatem adipisci ipsa voluptatum temporibus. Rem, a dolore
-        enim officia, necessitatibus veritatis sit harum quibusdam reiciendis
-        eos beatae?
-      </p>
-    </div>
+    <a href="#">Go Home</a>
+    <img
+      src="https://logo-download.com/wp-content/data/images/2021/08/McDonalds-Logo.svg"
+    />
   </body>
 </html>
