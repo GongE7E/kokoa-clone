@@ -1,82 +1,58 @@
-
 .user-component{
-    display: flex;
     justify-content: space-between;
 }
 
-.user-component__column{
+.user-component,
+.user-component__column:first-child{
     display: flex;
     align-items: center;
-    
 }
-
-.user-component__column:last-child{
-    color:rgba(0, 0, 0, 0.5);
+.friends__column{
+    margin-bottom: 15px;
+    position: relative;
 }
-.user-component__column:last-child span{
-    display: block;
-    margin-right: 5px;
+.user-component__column:not(.user-component__music,.user-component__column:first-child){
+    color:rgba(0, 0, 0, 0.4);
 }
-.user-component__column img{
-    margin-right: 15px;
+.user-component__avatar{
+    width: 70px;
+    height: 70px;
+    border-radius: 30px;
+    margin-right: 20px;
 }
 .user-component__avatar--xl{
     width: 80px;
     height: 80px;
-    border-radius: 32px;
 }
 .user-component__avatar--sm{
     width: 60px;
     height: 60px;
-    border-radius: 25px;
+    border-radius: 25px ;
 }
 
 .user-component__title{
-    font-size: 27px;
+    font-size:22px;
+    font-weight: 600;
 }
 
 .user-component__title--not-bold {
     font-weight: 400;
 }
 
+.user-component__subtitle{
+    margin-top: 8px;
+    font-size: 17px;
+    color:rgba(0, 0, 0, 0.5 )
+}
 
-.friends-component{
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 20px;
-}
-.friends-component__column{
-    display: flex;
-    align-items: center;
-    position: relative;
-}
-.friends-component__avatar{
-    width: 55px;
-    height: 55px;
-    border-radius: 22px;
-    margin-right: 13px;
-}
-.friends-component__avatar__dot{
-    width: 6px;
-    height: 6px;
-    border-radius: 20px;
-    background-color: tomato;
+.friends__avatar__dot{
+    
     position: absolute;
-    left:-8px;
-    bottom:47px;
+    left:-6px;
+    bottom:52px;
     
 }
-.friends-component__title{
-    font-size: large;
-    font-weight: 300;
-    margin-bottom: 5px;
-}
-.friends-component__subtitle{
-    font-size: small;
-
-    color:rgba(0, 0, 0, 0.5);
-}
-.friends-component__music{
+.user-component__music{
     border: 1px solid green;
     border-radius: 16px;
     padding: 8px;
@@ -84,6 +60,12 @@
     font-weight: 100;
     margin:0px 8px;
 }
-.friends-component__music span:last-child{
+.user-component__music span:last-child{
     color: green;
+}
+
+/* chats*/
+.user-component__time{
+    display: block;
+    margin-bottom:10px;
 }

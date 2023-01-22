@@ -21,23 +21,11 @@ position: relative;
 /* icon이 클릭되면 border-top color가 노랗게 되게*/
 
 .nav__notification{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 23px;
-    height: 23px;
-    border-radius: 50%;
-    background-color:tomato;
-    color:white;
     position: absolute;
-    left: 18px;
-    bottom:15px
+    left: 20px;
+    bottom:16px;
 }
 .nav__dot{
     position: absolute;
-    width: 5px;
-    height: 5px;
-    background-color: tomato;
-    border-radius: 20px;
     top:-13px;
 }

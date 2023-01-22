@@ -1,0 +1,16 @@
+.badge{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+    background-color:tomato;
+    color:white;
+}
+.badge__dot{
+    width: 5px;
+    height: 5px;
+    background-color: tomato;
+    border-radius: 20px;
+}
