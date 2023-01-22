@@ -1,5 +1,6 @@
 .user-component{
     justify-content: space-between;
+
 }
 
 .user-component,
@@ -13,6 +14,9 @@
 }
 .user-component__column:not(.user-component__music,.user-component__column:first-child){
     color:rgba(0, 0, 0, 0.4);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
 }
 .user-component__avatar{
     width: 70px;
@@ -46,7 +50,6 @@
 }
 
 .friends__avatar__dot{
-    
     position: absolute;
     left:-6px;
     bottom:52px;
@@ -68,4 +71,27 @@
 .user-component__time{
     display: block;
     margin-bottom:10px;
+}
+
+.user-component__text__column{
+    display: flex;
+    align-items: center;
+
+}
+.fa-thumbtack{
+    margin-left: 6px;
+    margin-top: 8px;
+    color: rgba(0, 0, 0, 0.4);
+}
+.user-component__mark{
+    width: 27px;
+    height: 27px;
+    border-radius: 25px;
+    background-color: gray;
+    color:whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    margin-right: 5px;
 }
