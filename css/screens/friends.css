@@ -14,7 +14,7 @@
 #friends-display-link span{
 margin:0px 5px 2px 0px;
 }
-.friends-screen{
+.friends-screen,.shopping-user,.shopping-list{
     padding:0px var(--horizontal-space);
 }
 .friends-screen__channel-header{

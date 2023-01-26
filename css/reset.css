@@ -51,12 +51,13 @@ a{
 	text-decoration: none;
 }
 
-input:focus{
-    outline: none;
-}
+
 li{
 	list-style: none;
 }
 a{
 	color: inherit;
+}
+input{
+	border-style: none;
 }

@@ -14,3 +14,11 @@
     background-color: tomato;
     border-radius: 20px;
 }
+.badge__mark{
+     width: 27px;
+    height: 27px;
+    border-radius: 25px;
+    background-color: gray;
+    color:whitesmoke;
+    font-size: 12px;
+}
