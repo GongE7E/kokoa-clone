@@ -1,0 +1,27 @@
+header{
+  position: relative;
+}
+.header__column{
+  background-color: var(--yellow);
+      display: flex;
+  justify-content: space-between;
+  padding:32px 14px 57px 14px;
+}
+.search {
+  display: flex;
+  width:330px;
+  position: absolute;
+  bottom:-22px;
+}
+.search__input{
+  width:100%;
+  padding:12px 24px;
+  border:1px solid #black;
+  border-radius:20px;
+  position:relative;
+}
+.search__icon{
+  position:absolute;
+   right:10px;
+  top:14px;
+}

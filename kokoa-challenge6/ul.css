@@ -1,0 +1,25 @@
+ul h2{
+    margin-top:24px;
+  margin-bottom: 30px;
+  font-weight: 600;
+  font-size: 22px;
+}
+.top{
+  display: flex;
+  justify-content: space-between;
+  align-items: space-between;
+}
+.top img{
+  width: 69px;
+  height: 108px;
+  border:0.2px solid black;
+  border-radius: var(--border-radius);
+}
+.top-star span:not(:last-child){
+  color:var(--yellow);
+}
+.top-star{
+  font-size:12px;
+display:flex;
+  justify-content: center;
+}
