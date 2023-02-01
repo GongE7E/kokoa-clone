@@ -1,4 +1,4 @@
-.badge{
+.badge, .badge__new{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -7,6 +7,11 @@
     border-radius: 50%;
     background-color:tomato;
     color:white;
+}
+.badge__new{
+    width: 20px;
+    height: 20px;
+    
 }
 .badge__dot{
     width: 5px;
