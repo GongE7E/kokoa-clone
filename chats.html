@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/styles.css" />
     <title>Chats-Kokoa Talk</title>
   </head>
-  <body>
+  <body id="chat-screen">
     <div class="status-bar">
       <div class="status-bar__column">
         <span>No Service</span>
@@ -35,79 +35,83 @@
     </header>
 
     <main class="friends-screen">
-      <div class="user-component">
-        <div class="user-component__column friends__column">
-          <img
-            class="user-component__avatar user-component__avatar--sm"
-            src="img/IMG_4527.JPG"
-          />
-          <div class="user-component__text">
-            <div class="user-component__text__column">
-              <span class="user-component__mark badge badge__mark">me</span>
-              <h2 class="user-component__title">Gong</h2>
-              <span><i class="fa-solid fa-thumbtack"></i></span>
+      <a href="chat.html">
+        <div class="user-component">
+          <div class="user-component__column friends__column">
+            <img
+              class="user-component__avatar user-component__avatar--sm"
+              src="img/IMG_4527.JPG"
+            />
+            <div class="user-component__text">
+              <div class="user-component__text__column">
+                <span class="user-component__mark badge badge__mark">me</span>
+                <h2 class="user-component__title">Gong</h2>
+                <span><i class="fa-solid fa-thumbtack"></i></span>
+              </div>
+              <div class="user-component__text__column">
+                <h6 class="user-component__subtitle">I sent you a picture.</h6>
+              </div>
             </div>
-            <div class="user-component__text__column">
-              <h6 class="user-component__subtitle">I sent you a picture.</h6>
+          </div>
+          <div class="user-component__column friends__column">
+            <span class="user-component__time">Today</span>
+          </div>
+        </div>
+        <div class="user-component">
+          <div class="user-component__column friends__column">
+            <img
+              class="user-component__avatar user-component__avatar--sm"
+              src="img/IMG_4542.JPG"
+            />
+            <div class="user-component__text">
+              <h2 class="user-component__title">Snoopy</h2>
+              <h6 class="user-component__subtitle">
+                What are you planning for after work?
+              </h6>
             </div>
           </div>
-        </div>
-        <div class="user-component__column friends__column">
-          <span class="user-component__time">Today</span>
-        </div>
-      </div>
-      <div class="user-component">
-        <div class="user-component__column friends__column">
-          <img
-            class="user-component__avatar user-component__avatar--sm"
-            src="img/IMG_4542.JPG"
-          />
-          <div class="user-component__text">
-            <h2 class="user-component__title">Snoopy</h2>
-            <h6 class="user-component__subtitle">
-              What are you planning for after work?
-            </h6>
+          <div class="user-component__column friends__column">
+            <span class="user-component__time">11:00</span>
+            <div class="badge">2</div>
           </div>
         </div>
-        <div class="user-component__column friends__column">
-          <span class="user-component__time">11:00</span>
-          <div class="badge">2</div>
-        </div>
-      </div>
-      <div class="user-component">
-        <div class="user-component__column friends__column">
-          <img
-            class="user-component__avatar user-component__avatar--sm"
-            src="img/IMG_4543.JPG"
-          />
-          <div class="user-component__text">
-            <h2 class="user-component__title">Ice Bear</h2>
-            <h6 class="user-component__subtitle">The movie is so fun!!!ㅋㅋ</h6>
+        <div class="user-component">
+          <div class="user-component__column friends__column">
+            <img
+              class="user-component__avatar user-component__avatar--sm"
+              src="img/IMG_4543.JPG"
+            />
+            <div class="user-component__text">
+              <h2 class="user-component__title">Ice Bear</h2>
+              <h6 class="user-component__subtitle">
+                The movie is so fun!!!ㅋㅋ
+              </h6>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <span class="user-component__time">17:12</span>
+            <div class="badge">1</div>
           </div>
         </div>
-        <div class="user-component__column">
-          <span class="user-component__time">17:12</span>
-          <div class="badge">1</div>
-        </div>
-      </div>
-      <div class="user-component">
-        <div class="user-component__column friends__column">
-          <img
-            class="user-component__avatar user-component__avatar--sm"
-            src="img/IMG_4541.JPG"
-          />
-          <div class="user-component__text">
-            <h2 class="user-component__title">Crayon</h2>
-            <h6 class="user-component__subtitle">
-              What are you doing this weekend?
-            </h6>
+        <div class="user-component">
+          <div class="user-component__column friends__column">
+            <img
+              class="user-component__avatar user-component__avatar--sm"
+              src="img/IMG_4541.JPG"
+            />
+            <div class="user-component__text">
+              <h2 class="user-component__title">Crayon</h2>
+              <h6 class="user-component__subtitle">
+                What are you doing this weekend?
+              </h6>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <span class="user-component__time">21:00</span>
+            <div class="badge">1</div>
           </div>
         </div>
-        <div class="user-component__column">
-          <span class="user-component__time">21:00</span>
-          <div class="badge">1</div>
-        </div>
-      </div>
+      </a>
     </main>
 
     <nav class="nav">
