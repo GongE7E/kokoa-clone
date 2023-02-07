@@ -47,13 +47,12 @@
     margin-right: 9px;
 }
 .message__author{
-
     margin-bottom: 5px;
     display: block;
 }
 .message__info{
-    display: flex;
-    align-items: flex-end;
+   display: flex;
+   align-items: flex-end;
 }
 
 .message__bubble{
@@ -63,11 +62,21 @@
     margin-right: 5px;
     border-top-left-radius: 0px;
 }
+
+.message__info-bubble{
+    display: flex;
+    flex-direction: column;
+}
+.message__info-bubble span:first-child{
+    margin-bottom: 15px;
+}
 .message__time,
 .message__author{
     opacity: 0.8;
     font-size: 13px;
 }
+
+
 .message-row--own{
 justify-content: flex-end;
 }
@@ -81,6 +90,7 @@ justify-content: flex-end;
     margin-right: 0px;
     margin-left: 5px;
 }
+
 .reply{
     position: fixed;
     bottom: 0;
