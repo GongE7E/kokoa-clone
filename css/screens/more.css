@@ -66,6 +66,28 @@ flex-wrap: wrap;
     width: 25%;
     margin-bottom: 30px;
 }
+.main-container__column li:nth-child(2):hover{
+animation: heartBeat 1.5s linear infinite;
+will-change: transform;
+}
+@keyframes heartBeat{
+    0%{
+        color:none;
+    }
+    25%{
+        color:white;
+    }
+    50%{
+        color: tomato;
+        transform: scale(1.1);
+    }
+    75%{
+        color:white;
+    }
+    100%{
+        color:none;
+    }
+}
 .main-container__column span{
     display: block;
     text-align: center;
